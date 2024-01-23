@@ -26,6 +26,7 @@ public class beatScroll : MonoBehaviour
         {
             gm.noteMiss();
             gameObject.SetActive(false);
+            gm.miss.SetActive(true);
         }
         if (Input.GetKeyDown(keyPress))
         {
